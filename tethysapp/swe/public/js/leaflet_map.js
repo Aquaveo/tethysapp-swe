@@ -64,8 +64,8 @@
         });
 
         // Add Basemap
-        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',{
-            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+        L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data: &copy; <a href="https://www.opentopomap.org">OpenTopoMap</a> (CC-BY-SA), SRTM | Map style: &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }).addTo(m_map);
     };
 
