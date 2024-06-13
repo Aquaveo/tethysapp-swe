@@ -63,7 +63,7 @@ def home(request):
         'variable_select': variable_select,
         'style_select': style_select,
     }
-    return render(request, 'thredds_tutorial/home.html', context)
+    return render(request, 'swe/home.html', context)
 
 
 @controller
